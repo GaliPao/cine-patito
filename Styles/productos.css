@@ -1,0 +1,65 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+header img {
+    width: 100px;
+    height: 100px;   
+}
+section{
+    background-color: #a70b0b;
+}
+.productos {
+    border: 10px solid black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ 
+ .card {
+    border: 5px double rgb(0, 0, 0);
+    /*background-color: #3e3e2e;*/
+    background-color: #05A5A1;
+    border-radius: 15px 15px/ 15px 15px;
+    width: 240px;
+    height: auto;
+    padding: 1em;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .desc {
+    border: 2px dashed black;
+    justify-content: center;
+    text-align: center;
+    background-color: #FBBB01;
+    /*background-color: rgb(136, 181, 255);*/
+    border-radius: 20px 20px/ 20px 20px;
+ }
+ button {
+    cursor: grab;
+    background-color: #ffffff;
+    border-radius: 20px 20px/ 20px 20px;
+    width: 130px;
+    height: 30px;
+
+ }
+header {
+    background-color:   #fbbd04 ;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
+

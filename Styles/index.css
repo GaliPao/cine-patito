@@ -1,0 +1,20 @@
+li {
+    display: inline;
+  }
+  li {
+    float: right;
+  }
+  
+  a {
+    display: block;
+    padding: 8px;
+    background-color: #b9cfe2;
+  }
+  li a:hover{
+    background-color: #224564;
+    color: white;
+  }
+  li a{
+    text-decoration: none;
+  }
+  
