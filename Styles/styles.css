@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    outline: 0;
 }
 body {
     min-height: 100vh;
@@ -46,14 +47,15 @@ body {
 .slider {
     grid-area: slider;
     background-color: #ffd75f;
+    opacity: 2;
 }
 .slider img {
         border: 10px solid white;
         border-radius: 40px;
+        margin: 0.5em;
 }
 
 .slider h1 {
-    margin: 1em;
     padding: 1em;
     background-color: white;
     font-family: "Archivo Black", sans-serif;
@@ -81,12 +83,14 @@ body {
     border: solid white;
     background-color: white;
     border-radius: 40px ;
+    flex-shrink: 1;
 }
 .funciones {
     border: solid #fac421;
     background-color: #f9d362;
     padding: 0.5em;
     border-radius: 20px;
+    overflow: auto;
 
 }
 .funciones a{
